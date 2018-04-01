@@ -1,0 +1,16 @@
+.player-list {
+    background: $list-bg;
+    margin-bottom: $size-xl;
+}
+
+.list-removeall {
+    background: $prim-color;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $size-md;
+
+    h3 {
+        margin: 0;
+    }
+}

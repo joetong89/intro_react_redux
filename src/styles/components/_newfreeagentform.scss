@@ -1,0 +1,47 @@
+.new-free-agent-form {
+
+    form {
+        padding-top: $size-lg;
+    }
+
+    // padding: $size-lg $size-md;
+    .form-group {
+        padding: 0 $size-md $size-md $size-lg;
+    }
+    
+    .flex-form-group {
+        display:flex;
+
+        label {
+            padding: $size-md $size-sm $size-md 0;
+        }
+
+        input,
+        select {
+            flex-grow: 1;
+            background: $prim-color;
+            border: none;
+            border-bottom: .3rem solid darken($prim-color, 10%);
+            color: white;
+            padding: $size-md;
+        }
+    }
+
+    textarea {
+        box-sizing: border-box;
+        background: $prim-color;
+        border: none;
+        border-bottom: .3rem solid darken($prim-color, 10%);
+        color: white;
+        padding: $size-md;
+    }
+
+    h3 {
+        text-align: center;
+        color: $off-white;
+        margin: 0;
+        padding: $size-lg;
+        border-bottom: 1px solid lighten($list-bg, 10%);
+        font-weight: normal;
+    }
+}
