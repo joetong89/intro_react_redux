@@ -24,8 +24,8 @@ class Player extends React.Component {
 
     render() {
         return (
-            <div class="player">
-                <div class="player-info">
+            <div className="player">
+                <div className="player-info">
                     <p onClick={this.showPlayerModal}>{this.props.player.name} ({this.props.player.gender})</p>
 
                     <button 
